@@ -1,0 +1,1676 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+                              build/Myapp/Mymath.o (__aeabi_dadd)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+                              build/ZLG_GUI/spline.o (__aeabi_dmul)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+                              build/Myapp/Mymath.o (__aeabi_dcmpeq)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+                              build/ZLG_GUI/spline.o (__aeabi_d2iz)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+                              build/3Ddisplay/Transform_3D.o (__aeabi_d2f)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+                              build/main.o (__aeabi_fsub)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+                              build/ZLG_GUI/spline.o (__aeabi_fmul)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+                              build/3Ddisplay/Transform_3D.o (__aeabi_fcmpeq)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+                              build/ZLG_GUI/spline.o (__aeabi_f2iz)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+                              build/main.o (__aeabi_f2uiz)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+                              build/driver/pwm-f1c100s.o (__aeabi_uldivmod)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+                              /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_dvmd_tls.o)
+                              /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o)
+                              /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o) (__clzdi2)
+/usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzsi2.o)
+                              /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o) (__clzsi2)
+
+Allocating common symbols
+Common symbol       size              file
+
+fb_f1c100s_pData    0x7c              build/driver/fb-f1c100s.o
+disp_color          0x4               build/ZLG_GUI/GUI_StockC.o
+render              0x4               build/Myapp/Mycommon.o
+back_color          0x4               build/ZLG_GUI/GUI_StockC.o
+fb_f1c100s          0x20              build/Myapp/Mycommon.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x0000000080000000 0x0000000000800000
+dma              0x0000000080800000 0x0000000000800000
+heap             0x0000000081000000 0x0000000001000000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/main.o
+LOAD build/machine/sys-clock.o
+LOAD build/machine/sys-dram.o
+LOAD build/machine/sys-uart.o
+LOAD build/machine/sys-copyself.o
+LOAD build/machine/sys-spi-flash.o
+LOAD build/machine/sys-mmu.o
+LOAD build/machine/exception.o
+LOAD build/driver/gpio-f1c100s.o
+LOAD build/driver/pwm-f1c100s.o
+LOAD build/driver/reset-f1c100s.o
+LOAD build/lib/malloc.o
+LOAD build/lib/dma.o
+LOAD build/driver/clk-f1c100s-pll.o
+LOAD build/driver/fb-f1c100s.o
+LOAD build/ZLG_GUI/ConvertColor.o
+LOAD build/ZLG_GUI/font5_7.o
+LOAD build/ZLG_GUI/FONT8_8.o
+LOAD build/ZLG_GUI/FONT24_32.o
+LOAD build/ZLG_GUI/GUI_BASIC.o
+LOAD build/ZLG_GUI/GUI_StockC.o
+LOAD build/ZLG_GUI/lcmdrv.o
+LOAD build/ZLG_GUI/loadbit.o
+LOAD build/ZLG_GUI/menu.o
+LOAD build/ZLG_GUI/spline.o
+LOAD build/ZLG_GUI/windows.o
+LOAD build/3Ddisplay/3D_Rotateapplication.o
+LOAD build/3Ddisplay/Transform_3D.o
+LOAD build/Myapp/Mycommon.o
+LOAD build/Myapp/Mymath.o
+LOAD build/machine/start.o
+LOAD build/arch/arm32/lib/memcpy.o
+LOAD build/arch/arm32/lib/memset.o
+LOAD /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a
+                0x0000000000010000                STACK_UND_SIZE = 0x10000
+                0x0000000000010000                STACK_ABT_SIZE = 0x10000
+                0x0000000000010000                STACK_IRQ_SIZE = 0x10000
+                0x0000000000010000                STACK_FIQ_SIZE = 0x10000
+                0x0000000000040000                STACK_SRV_SIZE = 0x40000
+
+.bootloader     0x0000000080000000     0x17a4
+                0x0000000080000000                PROVIDE (__bootloader_start, .)
+                0x0000000080000000                PROVIDE (__image_start, .)
+                0x0000000080000000                PROVIDE (__text_start, .)
+ build/machine/start.o(.text)
+ .text          0x0000000080000000      0x400 build/machine/start.o
+                0x0000000080000000                _start
+                0x0000000080000214                return_to_fel
+ build/arch/arm32/lib/memcpy.o(.text)
+ .text          0x0000000080000400      0x490 build/arch/arm32/lib/memcpy.o
+                0x0000000080000400                memcpy
+ build/arch/arm32/lib/memset.o(.text)
+ .text          0x0000000080000890       0xb0 build/arch/arm32/lib/memset.o
+                0x0000000080000890                memset
+ build/machine/sys-uart.o(.text)
+ .text          0x0000000080000940       0xb4 build/machine/sys-uart.o
+                0x0000000080000940                sys_uart_init
+                0x00000000800009d8                sys_uart_putc
+ build/machine/sys-clock.o(.text)
+ .text          0x00000000800009f4       0xf8 build/machine/sys-clock.o
+                0x00000000800009f4                sys_clock_init
+ build/machine/sys-dram.o(.text)
+ .text          0x0000000080000aec      0x880 build/machine/sys-dram.o
+                0x0000000080000d78                sys_dram_init
+ build/machine/sys-mmu.o(.text)
+ .text          0x000000008000136c       0xc4 build/machine/sys-mmu.o
+                0x000000008000136c                sys_mmu_init
+ build/machine/sys-spi-flash.o(.text)
+ .text          0x0000000080001430      0x208 build/machine/sys-spi-flash.o
+                0x0000000080001430                sys_spi_flash_init
+                0x00000000800014e8                sys_spi_flash_exit
+                0x0000000080001500                sys_spi_flash_read
+ build/machine/sys-copyself.o(.text)
+ .text          0x0000000080001638      0x16c build/machine/sys-copyself.o
+                0x0000000080001638                sys_copyself
+                0x00000000800017a4                PROVIDE (__bootloader_end, .)
+                0x00000000000017a4                __bootloader_size = SIZEOF (.bootloader)
+
+.text           0x00000000800017a8    0x10650
+ build/main.o(.text)
+ .text          0x00000000800017a8      0x20c build/main.o
+                0x00000000800017a8                boot_main
+                0x00000000800019ac                __fatal_error
+                0x00000000800019b0                __assert_func
+ *(.text*)
+ .text          0x00000000800019b4       0x18 build/machine/exception.o
+                0x00000000800019b4                arm32_do_undefined_instruction
+                0x00000000800019b8                arm32_do_software_interrupt
+                0x00000000800019bc                arm32_do_prefetch_abort
+                0x00000000800019c0                arm32_do_data_abort
+                0x00000000800019c4                arm32_do_irq
+                0x00000000800019c8                arm32_do_fiq
+ .text          0x00000000800019cc      0x2f8 build/driver/gpio-f1c100s.o
+                0x00000000800019cc                gpio_f1c100s_set_cfg
+                0x0000000080001a08                gpio_f1c100s_get_cfg
+                0x0000000080001a34                gpio_f1c100s_set_pull
+                0x0000000080001a80                gpio_f1c100s_get_pull
+                0x0000000080001ad4                gpio_f1c100s_set_drv
+                0x0000000080001b2c                gpio_f1c100s_get_drv
+                0x0000000080001b80                gpio_f1c100s_set_rate
+                0x0000000080001b84                gpio_f1c100s_get_rate
+                0x0000000080001b8c                gpio_f1c100s_set_dir
+                0x0000000080001bfc                gpio_f1c100s_get_dir
+                0x0000000080001c3c                gpio_f1c100s_set_value
+                0x0000000080001c6c                gpio_f1c100s_get_value
+                0x0000000080001c9c                gpio_f1c100s_to_irq
+ *fill*         0x0000000080001cc4        0x4 
+ .text          0x0000000080001cc8      0xc48 build/driver/pwm-f1c100s.o
+                0x0000000080001cc8                pwm_f1c100s_config
+                0x000000008000209c                pwm_f1c100s_set_duty
+                0x000000008000246c                pwm_f1c100s_enable
+                0x00000000800024b4                pwm_f1c100s_disable
+                0x00000000800024e0                pwm_f1c100s_init
+ .text          0x0000000080002910       0x40 build/driver/reset-f1c100s.o
+                0x0000000080002910                reset_f1c100s_assert
+                0x0000000080002930                reset_f1c100s_deassert
+ .text          0x0000000080002950     0x313c build/lib/malloc.o
+                0x0000000080002dbc                mm_create
+                0x0000000080002e7c                mm_destroy
+                0x0000000080002e80                mm_get_pool
+                0x0000000080002e8c                mm_add_pool
+                0x0000000080002fb8                mm_remove_pool
+                0x00000000800030f0                mm_malloc
+                0x0000000080003358                mm_memalign
+                0x000000008000370c                mm_realloc
+                0x0000000080004040                mm_free
+                0x00000000800043ac                malloc
+                0x000000008000461c                memalign
+                0x00000000800049e0                realloc
+                0x0000000080005320                calloc
+                0x00000000800055b4                free
+                0x000000008000592c                do_init_mem_pool
+ .text.unlikely
+                0x0000000080005a8c      0x110 build/lib/malloc.o
+ .text          0x0000000080005b9c       0x6c build/lib/dma.o
+                0x0000000080005b9c                dma_alloc_coherent
+                0x0000000080005bb4                dma_free_coherent
+                0x0000000080005bc8                dma_alloc_noncoherent
+                0x0000000080005bd4                dma_free_noncoherent
+                0x0000000080005bd8                dma_cache_sync
+                0x0000000080005bdc                do_init_dma_pool
+ .text          0x0000000080005c08      0x350 build/driver/clk-f1c100s-pll.o
+                0x0000000080005c08                clk_f1c100s_pll_set_parent
+                0x0000000080005c0c                clk_f1c100s_pll_get_parent
+                0x0000000080005c14                clk_f1c100s_pll_set_enable
+                0x0000000080005ce4                clk_f1c100s_pll_get_enable
+                0x0000000080005d74                clk_f1c100s_pll_set_rate
+                0x0000000080005d78                clk_f1c100s_pll_get_rate
+ .text          0x0000000080005f58      0x728 build/driver/fb-f1c100s.o
+                0x0000000080005f58                fb_f1c100s_setbl
+                0x0000000080005f64                fb_f1c100s_getbl
+                0x0000000080005f74                fb_f1c100s_create
+                0x0000000080006008                fb_f1c100s_destroy
+                0x000000008000602c                fb_f1c100s_present
+                0x00000000800060a8                fb_f1c100s_init
+                0x00000000800065e8                fb_f1c100s_remove
+                0x0000000080006654                fb_f1c100s_suspend
+                0x000000008000666c                fb_f1c100s_resume
+ .text          0x0000000080006680        0x0 build/ZLG_GUI/ConvertColor.o
+ .text          0x0000000080006680      0x2d4 build/ZLG_GUI/font5_7.o
+                0x0000000080006680                GUI_PutChar
+                0x0000000080006744                GUI_PutString
+                0x0000000080006844                GUI_PutNoStr
+ .text          0x0000000080006954        0x0 build/ZLG_GUI/FONT8_8.o
+ .text          0x0000000080006954        0x0 build/ZLG_GUI/FONT24_32.o
+ .text          0x0000000080006954     0x3bfc build/ZLG_GUI/GUI_BASIC.o
+                0x0000000080006954                GUI_Rectangle
+                0x00000000800069d4                GUI_RectangleFill
+                0x0000000080006a9c                GUI_Square
+                0x0000000080006b34                GUI_Line
+                0x0000000080006d20                GUI_LineWith
+                0x0000000080007064                GUI_LineS
+                0x00000000800070dc                GUI_Circle
+                0x0000000080007470                GUI_CircleFill
+                0x00000000800079d0                GUI_Ellipse
+                0x0000000080007dec                GUI_EllipseFill
+                0x00000000800082d0                GUI_ReadLeftPoint
+                0x0000000080008354                GUI_ReadRightPoint
+                0x00000000800083c0                GUI_CmpPointColor
+                0x00000000800083fc                GUI_FloodFill
+                0x0000000080008ef0                GUI_Arc4
+                0x00000000800092dc                GUI_Arc
+                0x0000000080009bb0                GUI_Pieslice
+ .text          0x000000008000a550       0x68 build/ZLG_GUI/GUI_StockC.o
+                0x000000008000a550                GUI_SetColor
+                0x000000008000a56c                GUI_GetBackColor
+                0x000000008000a580                GUI_GetDispColor
+                0x000000008000a594                GUI_ExchangeColor
+ .text          0x000000008000a5b8       0xb8 build/ZLG_GUI/lcmdrv.o
+                0x000000008000a5b8                GUI_Initialize
+                0x000000008000a5bc                GUI_FillSCR
+                0x000000008000a5c0                GUI_ClearSCR
+                0x000000008000a5d0                GUI_Point
+                0x000000008000a5d4                GUI_ReadPoint
+                0x000000008000a5d8                GUI_HLine
+                0x000000008000a624                GUI_RLine
+                0x000000008000a66c                GUI_Exec
+ .text          0x000000008000a670      0x308 build/ZLG_GUI/loadbit.o
+                0x000000008000a670                GUI_LoadLine
+                0x000000008000a71c                GUI_LoadPic
+                0x000000008000a844                GUI_LoadPic1
+ .text          0x000000008000a978        0x0 build/ZLG_GUI/menu.o
+ .text          0x000000008000a978     0x29e4 build/ZLG_GUI/spline.o
+                0x000000008000a978                max
+                0x000000008000a984                CURVE_SetCurve
+                0x000000008000aa14                CURVE_GetCount
+                0x000000008000aa34                CURVE_GetCurve
+                0x000000008000ac50                SPLINE_SetSpline
+                0x000000008000ada8                SPLINE_MatrixSolve
+                0x000000008000b330                SPLINE_Generate
+                0x000000008000bf9c                SPLINE_GetCurveCount
+                0x000000008000c054                SPLINE_GetCurve
+                0x000000008000c310                GUI_Spline
+ .text          0x000000008000d35c      0x334 build/ZLG_GUI/windows.o
+                0x000000008000d35c                GUI_WindowsDraw
+                0x000000008000d5ac                GUI_WindowsHide
+                0x000000008000d620                GUI_WindowsClr
+ .text          0x000000008000d690      0xf50 build/3Ddisplay/3D_Rotateapplication.o
+                0x000000008000d690                Rotate_cube
+                0x000000008000d9e4                RateCube
+                0x000000008000dce8                RateCube_all
+                0x000000008000e018                RotatePic32X32
+                0x000000008000e1f4                RotatePic29X32
+                0x000000008000e3d0                Rotatecircle
+ .text          0x000000008000e5e0     0x2000 build/3Ddisplay/Transform_3D.o
+                0x000000008000e5e0                MATRIX_copy
+                0x000000008000e664                MATRIX_multiply
+                0x000000008000ed08                vector_matrix_MULTIPLY
+                0x000000008000ee30                structure_3D
+                0x000000008000ee7c                Translate3D
+                0x000000008000f2fc                Scale_3D
+                0x000000008000f72c                Rotate_3D
+                0x00000000800104c8                OrtProject
+                0x0000000080010510                PerProject
+ .text          0x00000000800105e0       0xc4 build/Myapp/Mycommon.o
+                0x00000000800105e0                Screen_Init
+                0x000000008001060c                Set_Point
+                0x000000008001062c                Fill_Screen
+                0x000000008001065c                Get_Point
+                0x000000008001067c                Show_Screen
+                0x0000000080010694                Screen_Setbl
+ .text          0x00000000800106a4      0x2f4 build/Myapp/Mymath.o
+                0x00000000800106a4                abs
+                0x00000000800106d4                sin
+                0x000000008001078c                cos
+                0x000000008001087c                sqrt
+                0x0000000080010934                pow
+ .text          0x0000000080010998      0x41c /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+                0x0000000080010998                __aeabi_drsub
+                0x00000000800109a0                __aeabi_dsub
+                0x00000000800109a0                __subdf3
+                0x00000000800109a4                __adddf3
+                0x00000000800109a4                __aeabi_dadd
+                0x0000000080010cb4                __aeabi_ui2d
+                0x0000000080010cb4                __floatunsidf
+                0x0000000080010cd8                __floatsidf
+                0x0000000080010cd8                __aeabi_i2d
+                0x0000000080010d00                __extendsfdf2
+                0x0000000080010d00                __aeabi_f2d
+                0x0000000080010d40                __aeabi_ul2d
+                0x0000000080010d40                __floatundidf
+                0x0000000080010d54                __floatdidf
+                0x0000000080010d54                __aeabi_l2d
+ .text          0x0000000080010db4      0x49c /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+                0x0000000080010db4                __aeabi_dmul
+                0x0000000080010db4                __muldf3
+                0x0000000080011044                __aeabi_ddiv
+                0x0000000080011044                __divdf3
+ .text          0x0000000080011250      0x144 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+                0x0000000080011250                __gtdf2
+                0x0000000080011250                __gedf2
+                0x0000000080011258                __ltdf2
+                0x0000000080011258                __ledf2
+                0x0000000080011260                __cmpdf2
+                0x0000000080011260                __eqdf2
+                0x0000000080011260                __nedf2
+                0x00000000800112e8                __aeabi_cdrcmple
+                0x0000000080011304                __aeabi_cdcmple
+                0x0000000080011304                __aeabi_cdcmpeq
+                0x000000008001131c                __aeabi_dcmpeq
+                0x0000000080011334                __aeabi_dcmplt
+                0x000000008001134c                __aeabi_dcmple
+                0x0000000080011364                __aeabi_dcmpge
+                0x000000008001137c                __aeabi_dcmpgt
+ .text          0x0000000080011394       0x5c /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+                0x0000000080011394                __fixdfsi
+                0x0000000080011394                __aeabi_d2iz
+ .text          0x00000000800113f0       0xa0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+                0x00000000800113f0                __aeabi_d2f
+                0x00000000800113f0                __truncdfsf2
+ .text          0x0000000080011490      0x2ac /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+                0x0000000080011490                __aeabi_frsub
+                0x0000000080011498                __subsf3
+                0x0000000080011498                __aeabi_fsub
+                0x000000008001149c                __aeabi_fadd
+                0x000000008001149c                __addsf3
+                0x0000000080011658                __aeabi_ui2f
+                0x0000000080011658                __floatunsisf
+                0x0000000080011660                __aeabi_i2f
+                0x0000000080011660                __floatsisf
+                0x0000000080011680                __floatundisf
+                0x0000000080011680                __aeabi_ul2f
+                0x0000000080011690                __floatdisf
+                0x0000000080011690                __aeabi_l2f
+ .text          0x000000008001173c      0x2f8 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+                0x000000008001173c                __mulsf3
+                0x000000008001173c                __aeabi_fmul
+                0x00000000800118d4                __divsf3
+                0x00000000800118d4                __aeabi_fdiv
+ .text          0x0000000080011a34      0x114 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+                0x0000000080011a34                __gtsf2
+                0x0000000080011a34                __gesf2
+                0x0000000080011a3c                __lesf2
+                0x0000000080011a3c                __ltsf2
+                0x0000000080011a44                __nesf2
+                0x0000000080011a44                __eqsf2
+                0x0000000080011a44                __cmpsf2
+                0x0000000080011aa8                __aeabi_cfrcmple
+                0x0000000080011ab8                __aeabi_cfcmple
+                0x0000000080011ab8                __aeabi_cfcmpeq
+                0x0000000080011ad0                __aeabi_fcmpeq
+                0x0000000080011ae8                __aeabi_fcmplt
+                0x0000000080011b00                __aeabi_fcmple
+                0x0000000080011b18                __aeabi_fcmpge
+                0x0000000080011b30                __aeabi_fcmpgt
+ .text          0x0000000080011b48       0x5c /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+                0x0000000080011b48                __fixsfsi
+                0x0000000080011b48                __aeabi_f2iz
+ .text          0x0000000080011ba4       0x54 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+                0x0000000080011ba4                __aeabi_f2uiz
+                0x0000000080011ba4                __fixunssfsi
+ .text          0x0000000080011bf8       0x3c /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000080011bf8                __aeabi_uldivmod
+ .text          0x0000000080011c34      0x12c /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+                0x0000000080011c34                __udivmoddi4
+ .text          0x0000000080011d60        0x4 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_dvmd_tls.o)
+                0x0000000080011d60                __aeabi_ldiv0
+                0x0000000080011d60                __aeabi_idiv0
+ .text          0x0000000080011d64       0x28 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o)
+                0x0000000080011d64                __clzdi2
+ .text          0x0000000080011d8c       0x48 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzsi2.o)
+                0x0000000080011d8c                __clzsi2
+ *(.init.text)
+ *(.exit.text)
+ *(.glue*)
+ .glue_7        0x0000000080011dd4        0x0 linker stubs
+ .glue_7t       0x0000000080011dd4        0x0 linker stubs
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000080011dd4       0x24 linker stubs
+                0x0000000080011df8                PROVIDE (__text_end, .)
+
+.vfp11_veneer   0x0000000080011df8        0x0
+ .vfp11_veneer  0x0000000080011df8        0x0 linker stubs
+
+.v4_bx          0x0000000080011df8        0x0
+ .v4_bx         0x0000000080011df8        0x0 linker stubs
+
+.iplt           0x0000000080011df8        0x0
+ .iplt          0x0000000080011df8        0x0 build/main.o
+
+.initcall       0x0000000080011df8        0x0
+                0x0000000080011df8                PROVIDE (__initcall_start, .)
+ *(.initcall_0.text)
+ *(.initcall_1.text)
+ *(.initcall_2.text)
+ *(.initcall_3.text)
+ *(.initcall_4.text)
+ *(.initcall_5.text)
+ *(.initcall_6.text)
+ *(.initcall_7.text)
+ *(.initcall_8.text)
+ *(.initcall_9.text)
+                0x0000000080011df8                PROVIDE (__initcall_end, .)
+
+.exitcall       0x0000000080011df8        0x0
+                0x0000000080011df8                PROVIDE (__exitcall_start, .)
+ *(.exitcall_9.text)
+ *(.exitcall_8.text)
+ *(.exitcall_7.text)
+ *(.exitcall_6.text)
+ *(.exitcall_5.text)
+ *(.exitcall_4.text)
+ *(.exitcall_3.text)
+ *(.exitcall_2.text)
+ *(.exitcall_1.text)
+ *(.exitcall_0.text)
+                0x0000000080011df8                PROVIDE (__exitcall_end, .)
+
+.ksymtab        0x0000000080011df8        0x0
+                0x0000000080011df8                PROVIDE (__ksymtab_start, .)
+ *(.ksymtab.text)
+                0x0000000080011df8                PROVIDE (__ksymtab_end, .)
+
+.romdisk        0x0000000080011df8        0x0
+                0x0000000080011df8                PROVIDE (__romdisk_start, .)
+ *(.romdisk)
+                0x0000000080011df8                PROVIDE (__romdisk_end, .)
+
+.rodata         0x0000000080011df8     0x13e4
+                0x0000000080011df8                PROVIDE (__rodata_start, .)
+ *(SORT(.rodata*))
+ .rodata        0x0000000080011df8      0x91c build/main.o
+                0x0000000080011df8                bat_b
+                0x0000000080011e0c                bat_f
+                0x0000000080011e20                Bar
+                0x0000000080011e28                NO_b
+                0x0000000080011e30                NO_m
+                0x0000000080011e38                NO_f
+                0x0000000080011e40                YE
+                0x0000000080011e48                Logo
+                0x0000000080011f48                ASCII_Table_8X16
+                0x0000000080012538                ASCII_Table_6X8
+ .rodata        0x0000000080012714       0x7c build/driver/gpio-f1c100s.o
+                0x0000000080012730                GPIO_PF
+                0x0000000080012740                GPIO_PE
+                0x0000000080012750                GPIO_PD
+                0x0000000080012760                GPIO_PC
+                0x0000000080012770                GPIO_PB
+                0x0000000080012780                GPIO_PA
+ .rodata        0x0000000080012790       0x40 build/driver/pwm-f1c100s.o
+                0x0000000080012790                prescaler_table
+ .rodata        0x00000000800127d0      0x11c build/lib/malloc.o
+ .rodata        0x00000000800128ec       0x10 build/driver/clk-f1c100s-pll.o
+                0x00000000800128ec                clk_hosc
+ .rodata        0x00000000800128fc      0x300 build/ZLG_GUI/font5_7.o
+                0x00000000800128fc                FONT5x7ASCII
+ .rodata        0x0000000080012bfc        0x8 build/ZLG_GUI/GUI_StockC.o
+                0x0000000080012bfc                DCB2HEX_TAB
+ .rodata        0x0000000080012c04       0x84 build/3Ddisplay/3D_Rotateapplication.o
+                0x0000000080012c04                Cube
+                0x0000000080012c64                Triangle
+ .rodata.str1.4
+                0x0000000080012c88       0x17 build/main.o
+                                         0x18 (size before relaxing)
+ *fill*         0x0000000080012c9f        0x1 
+ .rodata.str1.4
+                0x0000000080012ca0      0x516 build/lib/malloc.o
+                                        0x518 (size before relaxing)
+ *fill*         0x00000000800131b6        0x2 
+ .rodata.str1.4
+                0x00000000800131b8       0x24 build/driver/fb-f1c100s.o
+                0x00000000800131dc                PROVIDE (__rodata_end, .)
+
+.data_shadow    0x00000000800131e0        0x0
+                0x00000000800131e0                PROVIDE (__data_shadow_start, .)
+                0x0000000080013a0c                PROVIDE (__data_shadow_end, (. + SIZEOF (.data)))
+                0x0000000080013a0c                PROVIDE (__image_end, __data_shadow_end)
+
+.data           0x00000000800131dc      0x82c load address 0x00000000800131e0
+                0x00000000800131dc                PROVIDE (__data_start, .)
+ *(.data*)
+ .data          0x00000000800131dc      0x7d0 build/main.o
+                0x00000000800131dc                SETCH33X29
+                0x00000000800133ac                SETICO
+ .data          0x00000000800139ac        0x0 build/machine/sys-clock.o
+ .data          0x00000000800139ac        0x0 build/machine/sys-dram.o
+ .data          0x00000000800139ac        0x0 build/machine/sys-uart.o
+ .data          0x00000000800139ac        0x0 build/machine/sys-copyself.o
+ .data          0x00000000800139ac        0x0 build/machine/sys-spi-flash.o
+ .data          0x00000000800139ac        0x0 build/machine/sys-mmu.o
+ .data          0x00000000800139ac        0x0 build/machine/exception.o
+ .data          0x00000000800139ac        0x0 build/driver/gpio-f1c100s.o
+ .data          0x00000000800139ac        0x0 build/driver/pwm-f1c100s.o
+ .data          0x00000000800139ac        0x0 build/driver/reset-f1c100s.o
+ .data          0x00000000800139ac        0x0 build/lib/malloc.o
+ .data          0x00000000800139ac        0x0 build/lib/dma.o
+ .data          0x00000000800139ac        0x0 build/driver/clk-f1c100s-pll.o
+ .data          0x00000000800139ac       0x58 build/driver/fb-f1c100s.o
+                0x00000000800139e0                reset_2
+                0x00000000800139ec                reset_3
+                0x00000000800139f8                reset_1
+ .data          0x0000000080013a04        0x0 build/ZLG_GUI/ConvertColor.o
+ .data          0x0000000080013a04        0x0 build/ZLG_GUI/font5_7.o
+ .data          0x0000000080013a04        0x0 build/ZLG_GUI/FONT8_8.o
+ .data          0x0000000080013a04        0x0 build/ZLG_GUI/FONT24_32.o
+ .data          0x0000000080013a04        0x0 build/ZLG_GUI/GUI_BASIC.o
+ .data          0x0000000080013a04        0x0 build/ZLG_GUI/GUI_StockC.o
+ .data          0x0000000080013a04        0x0 build/ZLG_GUI/lcmdrv.o
+ .data          0x0000000080013a04        0x0 build/ZLG_GUI/loadbit.o
+ .data          0x0000000080013a04        0x0 build/ZLG_GUI/menu.o
+ .data          0x0000000080013a04        0x0 build/ZLG_GUI/spline.o
+ .data          0x0000000080013a04        0x0 build/ZLG_GUI/windows.o
+ .data          0x0000000080013a04        0x0 build/3Ddisplay/3D_Rotateapplication.o
+ .data          0x0000000080013a04        0x0 build/3Ddisplay/Transform_3D.o
+ .data          0x0000000080013a04        0x0 build/Myapp/Mycommon.o
+ .data          0x0000000080013a04        0x0 build/Myapp/Mymath.o
+ .data          0x0000000080013a04        0x0 build/machine/start.o
+ .data          0x0000000080013a04        0x0 build/arch/arm32/lib/memcpy.o
+ .data          0x0000000080013a04        0x0 build/arch/arm32/lib/memset.o
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o)
+ .data          0x0000000080013a04        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzsi2.o)
+                0x0000000080013a08                . = ALIGN (0x8)
+ *fill*         0x0000000080013a04        0x4 
+                0x0000000080013a08                PROVIDE (__data_end, .)
+
+.igot.plt       0x0000000080013a08        0x0 load address 0x0000000080013a0c
+ .igot.plt      0x0000000080013a08        0x0 build/main.o
+
+.ARM.exidx      0x0000000080013a08        0x8 load address 0x0000000080013a0c
+                0x0000000080013a08                PROVIDE (__exidx_start, .)
+ *(.ARM.exidx*)
+ .ARM.exidx     0x0000000080013a08        0x8 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+                0x0000000080013a10                PROVIDE (__exidx_end, .)
+
+.ARM.extab      0x0000000080013a10        0x0 load address 0x0000000080013a14
+                0x0000000080013a10                PROVIDE (__extab_start, .)
+ *(.ARM.extab*)
+ .ARM.extab     0x0000000080013a10        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+                0x0000000080013a10                PROVIDE (__extab_end, .)
+
+.rel.dyn        0x0000000080013a10        0x0 load address 0x0000000080013a14
+ .rel.iplt      0x0000000080013a10        0x0 build/main.o
+
+.bss            0x0000000080013a10       0xb0 load address 0x0000000080013a14
+                0x0000000080013a10                PROVIDE (__bss_start, .)
+ *(.bss*)
+ .bss           0x0000000080013a10        0x0 build/main.o
+ .bss           0x0000000080013a10        0x0 build/machine/sys-clock.o
+ .bss           0x0000000080013a10        0x0 build/machine/sys-dram.o
+ .bss           0x0000000080013a10        0x0 build/machine/sys-uart.o
+ .bss           0x0000000080013a10        0x0 build/machine/sys-copyself.o
+ .bss           0x0000000080013a10        0x0 build/machine/sys-spi-flash.o
+ .bss           0x0000000080013a10        0x0 build/machine/sys-mmu.o
+ .bss           0x0000000080013a10        0x0 build/machine/exception.o
+ .bss           0x0000000080013a10        0x0 build/driver/gpio-f1c100s.o
+ .bss           0x0000000080013a10        0x0 build/driver/pwm-f1c100s.o
+ .bss           0x0000000080013a10        0x0 build/driver/reset-f1c100s.o
+ .bss           0x0000000080013a10        0x4 build/lib/malloc.o
+ .bss           0x0000000080013a14        0x4 build/lib/dma.o
+ .bss           0x0000000080013a18        0x0 build/driver/clk-f1c100s-pll.o
+ .bss           0x0000000080013a18        0x0 build/driver/fb-f1c100s.o
+ .bss           0x0000000080013a18        0x0 build/ZLG_GUI/ConvertColor.o
+ .bss           0x0000000080013a18        0x0 build/ZLG_GUI/font5_7.o
+ .bss           0x0000000080013a18        0x0 build/ZLG_GUI/FONT8_8.o
+ .bss           0x0000000080013a18        0x0 build/ZLG_GUI/FONT24_32.o
+ .bss           0x0000000080013a18        0x0 build/ZLG_GUI/GUI_BASIC.o
+ .bss           0x0000000080013a18        0x0 build/ZLG_GUI/GUI_StockC.o
+ .bss           0x0000000080013a18        0x0 build/ZLG_GUI/lcmdrv.o
+ .bss           0x0000000080013a18        0x0 build/ZLG_GUI/loadbit.o
+ .bss           0x0000000080013a18        0x0 build/ZLG_GUI/menu.o
+ .bss           0x0000000080013a18        0x0 build/ZLG_GUI/spline.o
+ .bss           0x0000000080013a18        0x0 build/ZLG_GUI/windows.o
+ .bss           0x0000000080013a18        0x0 build/3Ddisplay/3D_Rotateapplication.o
+ .bss           0x0000000080013a18        0x0 build/3Ddisplay/Transform_3D.o
+ .bss           0x0000000080013a18        0x0 build/Myapp/Mycommon.o
+ .bss           0x0000000080013a18        0x0 build/Myapp/Mymath.o
+ .bss           0x0000000080013a18        0x0 build/machine/start.o
+ .bss           0x0000000080013a18        0x0 build/arch/arm32/lib/memcpy.o
+ .bss           0x0000000080013a18        0x0 build/arch/arm32/lib/memset.o
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o)
+ .bss           0x0000000080013a18        0x0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzsi2.o)
+ *(.sbss*)
+ *(COMMON)
+ COMMON         0x0000000080013a18       0x7c build/driver/fb-f1c100s.o
+                0x0000000080013a18                fb_f1c100s_pData
+ COMMON         0x0000000080013a94        0x8 build/ZLG_GUI/GUI_StockC.o
+                0x0000000080013a94                disp_color
+                0x0000000080013a98                back_color
+ COMMON         0x0000000080013a9c       0x24 build/Myapp/Mycommon.o
+                0x0000000080013a9c                render
+                0x0000000080013aa0                fb_f1c100s
+                0x0000000080013ac0                . = ALIGN (0x8)
+                0x0000000080013ac0                PROVIDE (__bss_end, .)
+
+.stack          0x0000000080013ac0    0x80000 load address 0x0000000080013ac4
+                0x0000000080013ac0                PROVIDE (__stack_start, .)
+                0x0000000080013ac0                PROVIDE (__stack_und_start, .)
+                0x0000000080023ac0                . = (. + STACK_UND_SIZE)
+ *fill*         0x0000000080013ac0    0x10000 
+                0x0000000080023ac0                PROVIDE (__stack_und_end, .)
+                0x0000000080023ac0                . = ALIGN (0x8)
+                0x0000000080023ac0                PROVIDE (__stack_abt_start, .)
+                0x0000000080033ac0                . = (. + STACK_ABT_SIZE)
+ *fill*         0x0000000080023ac0    0x10000 
+                0x0000000080033ac0                PROVIDE (__stack_abt_end, .)
+                0x0000000080033ac0                . = ALIGN (0x8)
+                0x0000000080033ac0                PROVIDE (__stack_irq_start, .)
+                0x0000000080043ac0                . = (. + STACK_IRQ_SIZE)
+ *fill*         0x0000000080033ac0    0x10000 
+                0x0000000080043ac0                PROVIDE (__stack_irq_end, .)
+                0x0000000080043ac0                . = ALIGN (0x8)
+                0x0000000080043ac0                PROVIDE (__stack_fiq_start, .)
+                0x0000000080053ac0                . = (. + STACK_FIQ_SIZE)
+ *fill*         0x0000000080043ac0    0x10000 
+                0x0000000080053ac0                PROVIDE (__stack_fiq_end, .)
+                0x0000000080053ac0                . = ALIGN (0x8)
+                0x0000000080053ac0                PROVIDE (__stack_srv_start, .)
+                0x0000000080093ac0                . = (. + STACK_SRV_SIZE)
+ *fill*         0x0000000080053ac0    0x40000 
+                0x0000000080093ac0                PROVIDE (__stack_srv_end, .)
+                0x0000000080093ac0                . = ALIGN (0x8)
+                0x0000000080093ac0                PROVIDE (__stack_end, .)
+
+.dma            0x0000000080093ac0        0x0
+                0x0000000080800000                PROVIDE (__dma_start, ORIGIN (dma))
+                0x0000000081000000                PROVIDE (__dma_end, (ORIGIN (dma) + 0x800000))
+
+.heap           0x0000000080093ac0        0x0
+                0x0000000081000000                PROVIDE (__heap_start, ORIGIN (heap))
+                0x0000000082000000                PROVIDE (__heap_end, (ORIGIN (heap) + 0x1000000))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2d
+ *(.comment)
+ .comment       0x0000000000000000       0x2d build/main.o
+                                         0x2e (size before relaxing)
+ .comment       0x000000000000002d       0x2e build/machine/sys-clock.o
+ .comment       0x000000000000002d       0x2e build/machine/sys-dram.o
+ .comment       0x000000000000002d       0x2e build/machine/sys-uart.o
+ .comment       0x000000000000002d       0x2e build/machine/sys-copyself.o
+ .comment       0x000000000000002d       0x2e build/machine/sys-spi-flash.o
+ .comment       0x000000000000002d       0x2e build/machine/sys-mmu.o
+ .comment       0x000000000000002d       0x2e build/machine/exception.o
+ .comment       0x000000000000002d       0x2e build/driver/gpio-f1c100s.o
+ .comment       0x000000000000002d       0x2e build/driver/pwm-f1c100s.o
+ .comment       0x000000000000002d       0x2e build/driver/reset-f1c100s.o
+ .comment       0x000000000000002d       0x2e build/lib/malloc.o
+ .comment       0x000000000000002d       0x2e build/lib/dma.o
+ .comment       0x000000000000002d       0x2e build/driver/clk-f1c100s-pll.o
+ .comment       0x000000000000002d       0x2e build/driver/fb-f1c100s.o
+ .comment       0x000000000000002d       0x2e build/ZLG_GUI/ConvertColor.o
+ .comment       0x000000000000002d       0x2e build/ZLG_GUI/font5_7.o
+ .comment       0x000000000000002d       0x2e build/ZLG_GUI/FONT8_8.o
+ .comment       0x000000000000002d       0x2e build/ZLG_GUI/FONT24_32.o
+ .comment       0x000000000000002d       0x2e build/ZLG_GUI/GUI_BASIC.o
+ .comment       0x000000000000002d       0x2e build/ZLG_GUI/GUI_StockC.o
+ .comment       0x000000000000002d       0x2e build/ZLG_GUI/lcmdrv.o
+ .comment       0x000000000000002d       0x2e build/ZLG_GUI/loadbit.o
+ .comment       0x000000000000002d       0x2e build/ZLG_GUI/menu.o
+ .comment       0x000000000000002d       0x2e build/ZLG_GUI/spline.o
+ .comment       0x000000000000002d       0x2e build/ZLG_GUI/windows.o
+ .comment       0x000000000000002d       0x2e build/3Ddisplay/3D_Rotateapplication.o
+ .comment       0x000000000000002d       0x2e build/3Ddisplay/Transform_3D.o
+ .comment       0x000000000000002d       0x2e build/Myapp/Mycommon.o
+ .comment       0x000000000000002d       0x2e build/Myapp/Mymath.o
+ .comment       0x000000000000002d       0x2e /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+
+.ARM.attributes
+                0x0000000000000000       0x29
+ .ARM.attributes
+                0x0000000000000000       0x2b build/main.o
+ .ARM.attributes
+                0x000000000000002b       0x2b build/machine/sys-clock.o
+ .ARM.attributes
+                0x0000000000000056       0x2b build/machine/sys-dram.o
+ .ARM.attributes
+                0x0000000000000081       0x2b build/machine/sys-uart.o
+ .ARM.attributes
+                0x00000000000000ac       0x2b build/machine/sys-copyself.o
+ .ARM.attributes
+                0x00000000000000d7       0x2b build/machine/sys-spi-flash.o
+ .ARM.attributes
+                0x0000000000000102       0x2b build/machine/sys-mmu.o
+ .ARM.attributes
+                0x000000000000012d       0x2b build/machine/exception.o
+ .ARM.attributes
+                0x0000000000000158       0x2b build/driver/gpio-f1c100s.o
+ .ARM.attributes
+                0x0000000000000183       0x2b build/driver/pwm-f1c100s.o
+ .ARM.attributes
+                0x00000000000001ae       0x2b build/driver/reset-f1c100s.o
+ .ARM.attributes
+                0x00000000000001d9       0x2b build/lib/malloc.o
+ .ARM.attributes
+                0x0000000000000204       0x2b build/lib/dma.o
+ .ARM.attributes
+                0x000000000000022f       0x2b build/driver/clk-f1c100s-pll.o
+ .ARM.attributes
+                0x000000000000025a       0x2b build/driver/fb-f1c100s.o
+ .ARM.attributes
+                0x0000000000000285       0x2b build/ZLG_GUI/ConvertColor.o
+ .ARM.attributes
+                0x00000000000002b0       0x2b build/ZLG_GUI/font5_7.o
+ .ARM.attributes
+                0x00000000000002db       0x2b build/ZLG_GUI/FONT8_8.o
+ .ARM.attributes
+                0x0000000000000306       0x2b build/ZLG_GUI/FONT24_32.o
+ .ARM.attributes
+                0x0000000000000331       0x2b build/ZLG_GUI/GUI_BASIC.o
+ .ARM.attributes
+                0x000000000000035c       0x2b build/ZLG_GUI/GUI_StockC.o
+ .ARM.attributes
+                0x0000000000000387       0x2b build/ZLG_GUI/lcmdrv.o
+ .ARM.attributes
+                0x00000000000003b2       0x2b build/ZLG_GUI/loadbit.o
+ .ARM.attributes
+                0x00000000000003dd       0x2b build/ZLG_GUI/menu.o
+ .ARM.attributes
+                0x0000000000000408       0x2b build/ZLG_GUI/spline.o
+ .ARM.attributes
+                0x0000000000000433       0x2b build/ZLG_GUI/windows.o
+ .ARM.attributes
+                0x000000000000045e       0x2b build/3Ddisplay/3D_Rotateapplication.o
+ .ARM.attributes
+                0x0000000000000489       0x2b build/3Ddisplay/Transform_3D.o
+ .ARM.attributes
+                0x00000000000004b4       0x2b build/Myapp/Mycommon.o
+ .ARM.attributes
+                0x00000000000004df       0x2b build/Myapp/Mymath.o
+ .ARM.attributes
+                0x000000000000050a       0x1b build/machine/start.o
+ .ARM.attributes
+                0x0000000000000525       0x1b build/arch/arm32/lib/memcpy.o
+ .ARM.attributes
+                0x0000000000000540       0x1b build/arch/arm32/lib/memset.o
+ .ARM.attributes
+                0x000000000000055b       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000000000000573       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000000000000058b       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000000000005a3       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000000000005bb       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x00000000000005d3       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000000000005eb       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x0000000000000603       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x000000000000061b       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x0000000000000633       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+ .ARM.attributes
+                0x000000000000064b       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000663       0x30 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000000000000693       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000000006ab       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o)
+ .ARM.attributes
+                0x00000000000006c3       0x18 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzsi2.o)
+
+.debug_abbrev   0x0000000000000000     0x2ff1
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x1a4 build/main.o
+ .debug_abbrev  0x00000000000001a4      0x138 build/machine/sys-clock.o
+ .debug_abbrev  0x00000000000002dc      0x279 build/machine/sys-dram.o
+ .debug_abbrev  0x0000000000000555       0xf8 build/machine/sys-uart.o
+ .debug_abbrev  0x000000000000064d      0x11d build/machine/sys-copyself.o
+ .debug_abbrev  0x000000000000076a      0x1cf build/machine/sys-spi-flash.o
+ .debug_abbrev  0x0000000000000939      0x159 build/machine/sys-mmu.o
+ .debug_abbrev  0x0000000000000a92      0x102 build/machine/exception.o
+ .debug_abbrev  0x0000000000000b94      0x2c7 build/driver/gpio-f1c100s.o
+ .debug_abbrev  0x0000000000000e5b      0x22d build/driver/pwm-f1c100s.o
+ .debug_abbrev  0x0000000000001088      0x111 build/driver/reset-f1c100s.o
+ .debug_abbrev  0x0000000000001199      0x397 build/lib/malloc.o
+ .debug_abbrev  0x0000000000001530      0x102 build/lib/dma.o
+ .debug_abbrev  0x0000000000001632      0x19b build/driver/clk-f1c100s-pll.o
+ .debug_abbrev  0x00000000000017cd      0x3bc build/driver/fb-f1c100s.o
+ .debug_abbrev  0x0000000000001b89       0x26 build/ZLG_GUI/ConvertColor.o
+ .debug_abbrev  0x0000000000001baf      0x152 build/ZLG_GUI/font5_7.o
+ .debug_abbrev  0x0000000000001d01       0x26 build/ZLG_GUI/FONT8_8.o
+ .debug_abbrev  0x0000000000001d27       0x26 build/ZLG_GUI/FONT24_32.o
+ .debug_abbrev  0x0000000000001d4d      0x2ae build/ZLG_GUI/GUI_BASIC.o
+ .debug_abbrev  0x0000000000001ffb       0xa2 build/ZLG_GUI/GUI_StockC.o
+ .debug_abbrev  0x000000000000209d      0x15e build/ZLG_GUI/lcmdrv.o
+ .debug_abbrev  0x00000000000021fb      0x199 build/ZLG_GUI/loadbit.o
+ .debug_abbrev  0x0000000000002394       0x26 build/ZLG_GUI/menu.o
+ .debug_abbrev  0x00000000000023ba      0x2c2 build/ZLG_GUI/spline.o
+ .debug_abbrev  0x000000000000267c      0x11f build/ZLG_GUI/windows.o
+ .debug_abbrev  0x000000000000279b      0x1bd build/3Ddisplay/3D_Rotateapplication.o
+ .debug_abbrev  0x0000000000002958      0x22e build/3Ddisplay/Transform_3D.o
+ .debug_abbrev  0x0000000000002b86      0x15b build/Myapp/Mycommon.o
+ .debug_abbrev  0x0000000000002ce1      0x133 build/Myapp/Mymath.o
+ .debug_abbrev  0x0000000000002e14       0x14 build/machine/start.o
+ .debug_abbrev  0x0000000000002e28       0x14 build/arch/arm32/lib/memcpy.o
+ .debug_abbrev  0x0000000000002e3c       0x14 build/arch/arm32/lib/memset.o
+ .debug_abbrev  0x0000000000002e50       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+ .debug_abbrev  0x0000000000002e64       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+ .debug_abbrev  0x0000000000002e78       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+ .debug_abbrev  0x0000000000002e8c       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+ .debug_abbrev  0x0000000000002ea0       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+ .debug_abbrev  0x0000000000002eb4       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+ .debug_abbrev  0x0000000000002ec8       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+ .debug_abbrev  0x0000000000002edc       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+ .debug_abbrev  0x0000000000002ef0       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+ .debug_abbrev  0x0000000000002f04       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+ .debug_abbrev  0x0000000000002f18       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000000000002f2c       0x89 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x0000000000002fb5       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000000000002fc9       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o)
+ .debug_abbrev  0x0000000000002fdd       0x14 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzsi2.o)
+
+.debug_info     0x0000000000000000    0x187e1
+ *(.debug_info)
+ .debug_info    0x0000000000000000      0x5e1 build/main.o
+ .debug_info    0x00000000000005e1      0x495 build/machine/sys-clock.o
+ .debug_info    0x0000000000000a76     0x110d build/machine/sys-dram.o
+ .debug_info    0x0000000000001b83      0x405 build/machine/sys-uart.o
+ .debug_info    0x0000000000001f88      0x46e build/machine/sys-copyself.o
+ .debug_info    0x00000000000023f6      0xa6f build/machine/sys-spi-flash.o
+ .debug_info    0x0000000000002e65      0x450 build/machine/sys-mmu.o
+ .debug_info    0x00000000000032b5      0x198 build/machine/exception.o
+ .debug_info    0x000000000000344d      0xa4f build/driver/gpio-f1c100s.o
+ .debug_info    0x0000000000003e9c      0x9d7 build/driver/pwm-f1c100s.o
+ .debug_info    0x0000000000004873      0x211 build/driver/reset-f1c100s.o
+ .debug_info    0x0000000000004a84     0x8a91 build/lib/malloc.o
+ .debug_info    0x000000000000d515      0x23a build/lib/dma.o
+ .debug_info    0x000000000000d74f      0x5da build/driver/clk-f1c100s-pll.o
+ .debug_info    0x000000000000dd29     0x2217 build/driver/fb-f1c100s.o
+ .debug_info    0x000000000000ff40       0x80 build/ZLG_GUI/ConvertColor.o
+ .debug_info    0x000000000000ffc0      0x415 build/ZLG_GUI/font5_7.o
+ .debug_info    0x00000000000103d5       0x80 build/ZLG_GUI/FONT8_8.o
+ .debug_info    0x0000000000010455       0x80 build/ZLG_GUI/FONT24_32.o
+ .debug_info    0x00000000000104d5     0x3214 build/ZLG_GUI/GUI_BASIC.o
+ .debug_info    0x00000000000136e9      0x18c build/ZLG_GUI/GUI_StockC.o
+ .debug_info    0x0000000000013875      0x3ac build/ZLG_GUI/lcmdrv.o
+ .debug_info    0x0000000000013c21      0x440 build/ZLG_GUI/loadbit.o
+ .debug_info    0x0000000000014061       0x80 build/ZLG_GUI/menu.o
+ .debug_info    0x00000000000140e1      0x967 build/ZLG_GUI/spline.o
+ .debug_info    0x0000000000014a48      0x2dc build/ZLG_GUI/windows.o
+ .debug_info    0x0000000000014d24     0x1588 build/3Ddisplay/3D_Rotateapplication.o
+ .debug_info    0x00000000000162ac      0x6ff build/3Ddisplay/Transform_3D.o
+ .debug_info    0x00000000000169ab      0x347 build/Myapp/Mycommon.o
+ .debug_info    0x0000000000016cf2      0x2ba build/Myapp/Mymath.o
+ .debug_info    0x0000000000016fac       0x73 build/machine/start.o
+ .debug_info    0x000000000001701f       0x7b build/arch/arm32/lib/memcpy.o
+ .debug_info    0x000000000001709a       0x7b build/arch/arm32/lib/memset.o
+ .debug_info    0x0000000000017115      0x188 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+ .debug_info    0x000000000001729d      0x188 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+ .debug_info    0x0000000000017425      0x188 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+ .debug_info    0x00000000000175ad      0x188 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+ .debug_info    0x0000000000017735      0x188 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+ .debug_info    0x00000000000178bd      0x188 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+ .debug_info    0x0000000000017a45      0x188 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+ .debug_info    0x0000000000017bcd      0x188 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+ .debug_info    0x0000000000017d55      0x188 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+ .debug_info    0x0000000000017edd      0x188 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+ .debug_info    0x0000000000018065      0x183 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x00000000000181e8      0x164 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+ .debug_info    0x000000000001834c      0x187 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00000000000184d3      0x187 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o)
+ .debug_info    0x000000000001865a      0x187 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzsi2.o)
+
+.debug_line     0x0000000000000000     0x658c
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x1d6 build/main.o
+ .debug_line    0x00000000000001d6      0x185 build/machine/sys-clock.o
+ .debug_line    0x000000000000035b      0x50f build/machine/sys-dram.o
+ .debug_line    0x000000000000086a      0x164 build/machine/sys-uart.o
+ .debug_line    0x00000000000009ce       0xeb build/machine/sys-copyself.o
+ .debug_line    0x0000000000000ab9      0x290 build/machine/sys-spi-flash.o
+ .debug_line    0x0000000000000d49      0x117 build/machine/sys-mmu.o
+ .debug_line    0x0000000000000e60       0xab build/machine/exception.o
+ .debug_line    0x0000000000000f0b      0x214 build/driver/gpio-f1c100s.o
+ .debug_line    0x000000000000111f      0x45d build/driver/pwm-f1c100s.o
+ .debug_line    0x000000000000157c      0x128 build/driver/reset-f1c100s.o
+ .debug_line    0x00000000000016a4     0x1104 build/lib/malloc.o
+ .debug_line    0x00000000000027a8       0x51 build/lib/dma.o
+ .debug_line    0x00000000000027f9      0x28b build/driver/clk-f1c100s-pll.o
+ .debug_line    0x0000000000002a84      0x5ea build/driver/fb-f1c100s.o
+ .debug_line    0x000000000000306e       0x1d build/ZLG_GUI/ConvertColor.o
+ .debug_line    0x000000000000308b      0x14b build/ZLG_GUI/font5_7.o
+ .debug_line    0x00000000000031d6       0x1d build/ZLG_GUI/FONT8_8.o
+ .debug_line    0x00000000000031f3       0x1d build/ZLG_GUI/FONT24_32.o
+ .debug_line    0x0000000000003210      0xbb4 build/ZLG_GUI/GUI_BASIC.o
+ .debug_line    0x0000000000003dc4       0xd8 build/ZLG_GUI/GUI_StockC.o
+ .debug_line    0x0000000000003e9c      0x16b build/ZLG_GUI/lcmdrv.o
+ .debug_line    0x0000000000004007      0x160 build/ZLG_GUI/loadbit.o
+ .debug_line    0x0000000000004167       0x1d build/ZLG_GUI/menu.o
+ .debug_line    0x0000000000004184      0x795 build/ZLG_GUI/spline.o
+ .debug_line    0x0000000000004919      0x193 build/ZLG_GUI/windows.o
+ .debug_line    0x0000000000004aac      0x3bf build/3Ddisplay/3D_Rotateapplication.o
+ .debug_line    0x0000000000004e6b      0x199 build/3Ddisplay/Transform_3D.o
+ .debug_line    0x0000000000005004       0xda build/Myapp/Mycommon.o
+ .debug_line    0x00000000000050de       0xbb build/Myapp/Mymath.o
+ .debug_line    0x0000000000005199       0xf6 build/machine/start.o
+ .debug_line    0x000000000000528f      0x169 build/arch/arm32/lib/memcpy.o
+ .debug_line    0x00000000000053f8       0x70 build/arch/arm32/lib/memset.o
+ .debug_line    0x0000000000005468      0x1dd /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+ .debug_line    0x0000000000005645      0x1f1 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+ .debug_line    0x0000000000005836      0x121 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+ .debug_line    0x0000000000005957       0xe7 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+ .debug_line    0x0000000000005a3e       0xf8 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+ .debug_line    0x0000000000005b36      0x186 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+ .debug_line    0x0000000000005cbc      0x192 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+ .debug_line    0x0000000000005e4e      0x115 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+ .debug_line    0x0000000000005f63       0xe7 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+ .debug_line    0x000000000000604a       0xe5 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+ .debug_line    0x000000000000612f       0xd0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x00000000000061ff      0x106 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x0000000000006305       0xd0 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x00000000000063d5       0xda /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o)
+ .debug_line    0x00000000000064af       0xdd /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzsi2.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_aranges  0x0000000000000000      0x618
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 build/main.o
+ .debug_aranges
+                0x0000000000000020       0x20 build/machine/sys-clock.o
+ .debug_aranges
+                0x0000000000000040       0x20 build/machine/sys-dram.o
+ .debug_aranges
+                0x0000000000000060       0x20 build/machine/sys-uart.o
+ .debug_aranges
+                0x0000000000000080       0x20 build/machine/sys-copyself.o
+ .debug_aranges
+                0x00000000000000a0       0x20 build/machine/sys-spi-flash.o
+ .debug_aranges
+                0x00000000000000c0       0x20 build/machine/sys-mmu.o
+ .debug_aranges
+                0x00000000000000e0       0x20 build/machine/exception.o
+ .debug_aranges
+                0x0000000000000100       0x20 build/driver/gpio-f1c100s.o
+ .debug_aranges
+                0x0000000000000120       0x20 build/driver/pwm-f1c100s.o
+ .debug_aranges
+                0x0000000000000140       0x20 build/driver/reset-f1c100s.o
+ .debug_aranges
+                0x0000000000000160       0x58 build/lib/malloc.o
+ .debug_aranges
+                0x00000000000001b8       0x20 build/lib/dma.o
+ .debug_aranges
+                0x00000000000001d8       0x20 build/driver/clk-f1c100s-pll.o
+ .debug_aranges
+                0x00000000000001f8       0x20 build/driver/fb-f1c100s.o
+ .debug_aranges
+                0x0000000000000218       0x18 build/ZLG_GUI/ConvertColor.o
+ .debug_aranges
+                0x0000000000000230       0x20 build/ZLG_GUI/font5_7.o
+ .debug_aranges
+                0x0000000000000250       0x18 build/ZLG_GUI/FONT8_8.o
+ .debug_aranges
+                0x0000000000000268       0x18 build/ZLG_GUI/FONT24_32.o
+ .debug_aranges
+                0x0000000000000280       0x20 build/ZLG_GUI/GUI_BASIC.o
+ .debug_aranges
+                0x00000000000002a0       0x20 build/ZLG_GUI/GUI_StockC.o
+ .debug_aranges
+                0x00000000000002c0       0x20 build/ZLG_GUI/lcmdrv.o
+ .debug_aranges
+                0x00000000000002e0       0x20 build/ZLG_GUI/loadbit.o
+ .debug_aranges
+                0x0000000000000300       0x18 build/ZLG_GUI/menu.o
+ .debug_aranges
+                0x0000000000000318       0x20 build/ZLG_GUI/spline.o
+ .debug_aranges
+                0x0000000000000338       0x20 build/ZLG_GUI/windows.o
+ .debug_aranges
+                0x0000000000000358       0x20 build/3Ddisplay/3D_Rotateapplication.o
+ .debug_aranges
+                0x0000000000000378       0x20 build/3Ddisplay/Transform_3D.o
+ .debug_aranges
+                0x0000000000000398       0x20 build/Myapp/Mycommon.o
+ .debug_aranges
+                0x00000000000003b8       0x20 build/Myapp/Mymath.o
+ .debug_aranges
+                0x00000000000003d8       0x20 build/machine/start.o
+ .debug_aranges
+                0x00000000000003f8       0x20 build/arch/arm32/lib/memcpy.o
+ .debug_aranges
+                0x0000000000000418       0x20 build/arch/arm32/lib/memset.o
+ .debug_aranges
+                0x0000000000000438       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+ .debug_aranges
+                0x0000000000000458       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+ .debug_aranges
+                0x0000000000000478       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+ .debug_aranges
+                0x0000000000000498       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+ .debug_aranges
+                0x00000000000004b8       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+ .debug_aranges
+                0x00000000000004d8       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+ .debug_aranges
+                0x00000000000004f8       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+ .debug_aranges
+                0x0000000000000518       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+ .debug_aranges
+                0x0000000000000538       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+ .debug_aranges
+                0x0000000000000558       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+ .debug_aranges
+                0x0000000000000578       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x0000000000000598       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+ .debug_aranges
+                0x00000000000005b8       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000000000005d8       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o)
+ .debug_aranges
+                0x00000000000005f8       0x20 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzsi2.o)
+OUTPUT(build/firmware.elf elf32-littlearm)
+
+.debug_loc      0x0000000000000000    0x1dc91
+ .debug_loc     0x0000000000000000      0x12f build/main.o
+ .debug_loc     0x000000000000012f      0x3b3 build/machine/sys-clock.o
+ .debug_loc     0x00000000000004e2     0x1243 build/machine/sys-dram.o
+ .debug_loc     0x0000000000001725      0x393 build/machine/sys-uart.o
+ .debug_loc     0x0000000000001ab8       0x13 build/machine/sys-copyself.o
+ .debug_loc     0x0000000000001acb      0x7e9 build/machine/sys-spi-flash.o
+ .debug_loc     0x00000000000022b4      0x137 build/machine/sys-mmu.o
+ .debug_loc     0x00000000000023eb      0xa3e build/driver/gpio-f1c100s.o
+ .debug_loc     0x0000000000002e29     0x1740 build/driver/pwm-f1c100s.o
+ .debug_loc     0x0000000000004569       0xc6 build/driver/reset-f1c100s.o
+ .debug_loc     0x000000000000462f     0xe770 build/lib/malloc.o
+ .debug_loc     0x0000000000012d9f       0xa5 build/lib/dma.o
+ .debug_loc     0x0000000000012e44      0x881 build/driver/clk-f1c100s-pll.o
+ .debug_loc     0x00000000000136c5     0x1260 build/driver/fb-f1c100s.o
+ .debug_loc     0x0000000000014925      0x49f build/ZLG_GUI/font5_7.o
+ .debug_loc     0x0000000000014dc4     0x5648 build/ZLG_GUI/GUI_BASIC.o
+ .debug_loc     0x000000000001a40c       0x13 build/ZLG_GUI/GUI_StockC.o
+ .debug_loc     0x000000000001a41f      0x2d3 build/ZLG_GUI/lcmdrv.o
+ .debug_loc     0x000000000001a6f2      0x5bb build/ZLG_GUI/loadbit.o
+ .debug_loc     0x000000000001acad     0x1412 build/ZLG_GUI/spline.o
+ .debug_loc     0x000000000001c0bf      0x20d build/ZLG_GUI/windows.o
+ .debug_loc     0x000000000001c2cc      0x72c build/3Ddisplay/3D_Rotateapplication.o
+ .debug_loc     0x000000000001c9f8      0xcda build/3Ddisplay/Transform_3D.o
+ .debug_loc     0x000000000001d6d2       0x77 build/Myapp/Mycommon.o
+ .debug_loc     0x000000000001d749      0x3aa build/Myapp/Mymath.o
+ .debug_loc     0x000000000001daf3      0x19e /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+
+.debug_str      0x0000000000000000     0x270b
+ .debug_str     0x0000000000000000      0x27d build/main.o
+                                        0x2cd (size before relaxing)
+ .debug_str     0x000000000000027d       0x8a build/machine/sys-clock.o
+                                        0x1e3 (size before relaxing)
+ .debug_str     0x0000000000000307      0x1b9 build/machine/sys-dram.o
+                                        0x379 (size before relaxing)
+ .debug_str     0x00000000000004c0       0x21 build/machine/sys-uart.o
+                                        0x1b6 (size before relaxing)
+ .debug_str     0x00000000000004e1       0xd2 build/machine/sys-copyself.o
+                                        0x238 (size before relaxing)
+ .debug_str     0x00000000000005b3      0x101 build/machine/sys-spi-flash.o
+                                        0x2de (size before relaxing)
+ .debug_str     0x00000000000006b4       0xe4 build/machine/sys-mmu.o
+                                        0x268 (size before relaxing)
+ .debug_str     0x0000000000000798       0x83 build/machine/exception.o
+                                        0x1e9 (size before relaxing)
+ .debug_str     0x000000000000081b      0x2b6 build/driver/gpio-f1c100s.o
+                                        0x459 (size before relaxing)
+ .debug_str     0x0000000000000ad1       0xcf build/driver/pwm-f1c100s.o
+                                        0x2b5 (size before relaxing)
+ .debug_str     0x0000000000000ba0       0x6b build/driver/reset-f1c100s.o
+                                        0x20c (size before relaxing)
+ .debug_str     0x0000000000000c0b      0x604 build/lib/malloc.o
+                                        0x7d7 (size before relaxing)
+ .debug_str     0x000000000000120f       0x8c build/lib/dma.o
+                                        0x22b (size before relaxing)
+ .debug_str     0x000000000000129b       0xef build/driver/clk-f1c100s-pll.o
+                                        0x2a7 (size before relaxing)
+ .debug_str     0x000000000000138a      0x9f2 build/driver/fb-f1c100s.o
+                                        0xe28 (size before relaxing)
+ .debug_str     0x0000000000001d7c       0x17 build/ZLG_GUI/ConvertColor.o
+                                        0x17c (size before relaxing)
+ .debug_str     0x0000000000001d93       0x69 build/ZLG_GUI/font5_7.o
+                                        0x1fb (size before relaxing)
+ .debug_str     0x0000000000001dfc       0x12 build/ZLG_GUI/FONT8_8.o
+                                        0x177 (size before relaxing)
+ .debug_str     0x0000000000001e0e       0x14 build/ZLG_GUI/FONT24_32.o
+                                        0x179 (size before relaxing)
+ .debug_str     0x0000000000001e22      0x2d3 build/ZLG_GUI/GUI_BASIC.o
+                                        0x47b (size before relaxing)
+ .debug_str     0x00000000000020f5       0x64 build/ZLG_GUI/GUI_StockC.o
+                                        0x1ff (size before relaxing)
+ .debug_str     0x0000000000002159       0x63 build/ZLG_GUI/lcmdrv.o
+                                        0x240 (size before relaxing)
+ .debug_str     0x00000000000021bc       0x40 build/ZLG_GUI/loadbit.o
+                                        0x1fe (size before relaxing)
+ .debug_str     0x00000000000021fc        0xf build/ZLG_GUI/menu.o
+                                        0x174 (size before relaxing)
+ .debug_str     0x000000000000220b       0xf0 build/ZLG_GUI/spline.o
+                                        0x28a (size before relaxing)
+ .debug_str     0x00000000000022fb       0x5f build/ZLG_GUI/windows.o
+                                        0x24a (size before relaxing)
+ .debug_str     0x000000000000235a       0xf8 build/3Ddisplay/3D_Rotateapplication.o
+                                        0x2ce (size before relaxing)
+ .debug_str     0x0000000000002452       0x82 build/3Ddisplay/Transform_3D.o
+                                        0x266 (size before relaxing)
+ .debug_str     0x00000000000024d4       0x1c build/Myapp/Mycommon.o
+                                        0x314 (size before relaxing)
+ .debug_str     0x00000000000024f0        0xf build/Myapp/Mymath.o
+                                        0x179 (size before relaxing)
+ .debug_str     0x00000000000024ff      0x20c /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+                                        0x2b7 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1924
+ .debug_frame   0x0000000000000000       0x58 build/main.o
+ .debug_frame   0x0000000000000058       0x20 build/machine/sys-clock.o
+ .debug_frame   0x0000000000000078       0x78 build/machine/sys-dram.o
+ .debug_frame   0x00000000000000f0       0x38 build/machine/sys-uart.o
+ .debug_frame   0x0000000000000128       0x40 build/machine/sys-copyself.o
+ .debug_frame   0x0000000000000168       0x50 build/machine/sys-spi-flash.o
+ .debug_frame   0x00000000000001b8       0x20 build/machine/sys-mmu.o
+ .debug_frame   0x00000000000001d8       0x70 build/machine/exception.o
+ .debug_frame   0x0000000000000248       0xf4 build/driver/gpio-f1c100s.o
+ .debug_frame   0x000000000000033c       0xb8 build/driver/pwm-f1c100s.o
+ .debug_frame   0x00000000000003f4       0x30 build/driver/reset-f1c100s.o
+ .debug_frame   0x0000000000000424      0x358 build/lib/malloc.o
+ .debug_frame   0x000000000000077c       0x78 build/lib/dma.o
+ .debug_frame   0x00000000000007f4       0x80 build/driver/clk-f1c100s-pll.o
+ .debug_frame   0x0000000000000874       0xf4 build/driver/fb-f1c100s.o
+ .debug_frame   0x0000000000000968       0x94 build/ZLG_GUI/font5_7.o
+ .debug_frame   0x00000000000009fc      0x3cc build/ZLG_GUI/GUI_BASIC.o
+ .debug_frame   0x0000000000000dc8       0x50 build/ZLG_GUI/GUI_StockC.o
+ .debug_frame   0x0000000000000e18       0xb0 build/ZLG_GUI/lcmdrv.o
+ .debug_frame   0x0000000000000ec8       0xa4 build/ZLG_GUI/loadbit.o
+ .debug_frame   0x0000000000000f6c      0x18c build/ZLG_GUI/spline.o
+ .debug_frame   0x00000000000010f8       0x74 build/ZLG_GUI/windows.o
+ .debug_frame   0x000000000000116c      0x130 build/3Ddisplay/3D_Rotateapplication.o
+ .debug_frame   0x000000000000129c      0x15c build/3Ddisplay/Transform_3D.o
+ .debug_frame   0x00000000000013f8       0x78 build/Myapp/Mycommon.o
+ .debug_frame   0x0000000000001470       0xa4 build/Myapp/Mymath.o
+ .debug_frame   0x0000000000001514       0xac /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000000000015c0       0x50 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000001610       0xc4 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00000000000016d4       0x24 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x00000000000016f8       0x24 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x000000000000171c       0x4c /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x0000000000001768       0x38 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00000000000017a0       0xc8 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x0000000000001868       0x24 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x000000000000188c       0x24 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x00000000000018b0       0x2c /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000000000018dc       0x48 /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+
+.debug_ranges   0x0000000000000000     0x3d30
+ .debug_ranges  0x0000000000000000      0x100 build/machine/sys-clock.o
+ .debug_ranges  0x0000000000000100      0x4c0 build/machine/sys-dram.o
+ .debug_ranges  0x00000000000005c0       0x68 build/machine/sys-uart.o
+ .debug_ranges  0x0000000000000628       0x18 build/machine/sys-copyself.o
+ .debug_ranges  0x0000000000000640      0x1f8 build/machine/sys-spi-flash.o
+ .debug_ranges  0x0000000000000838       0x30 build/machine/sys-mmu.o
+ .debug_ranges  0x0000000000000868       0x60 build/driver/gpio-f1c100s.o
+ .debug_ranges  0x00000000000008c8      0x1b8 build/driver/pwm-f1c100s.o
+ .debug_ranges  0x0000000000000a80       0x30 build/driver/reset-f1c100s.o
+ .debug_ranges  0x0000000000000ab0     0x2900 build/lib/malloc.o
+ .debug_ranges  0x00000000000033b0       0xd8 build/driver/clk-f1c100s-pll.o
+ .debug_ranges  0x0000000000003488      0x378 build/driver/fb-f1c100s.o
+ .debug_ranges  0x0000000000003800       0x48 build/ZLG_GUI/font5_7.o
+ .debug_ranges  0x0000000000003848      0x2a8 build/ZLG_GUI/GUI_BASIC.o
+ .debug_ranges  0x0000000000003af0       0x40 build/ZLG_GUI/lcmdrv.o
+ .debug_ranges  0x0000000000003b30       0x18 build/ZLG_GUI/loadbit.o
+ .debug_ranges  0x0000000000003b48       0x90 build/ZLG_GUI/spline.o
+ .debug_ranges  0x0000000000003bd8       0xd0 build/3Ddisplay/Transform_3D.o
+ .debug_ranges  0x0000000000003ca8       0x88 build/Myapp/Mymath.o
+
+Cross Reference Table
+
+Symbol                                            File
+ASCII_Table_6X8                                   build/main.o
+ASCII_Table_8X16                                  build/main.o
+Bar                                               build/main.o
+CURVE_GetCount                                    build/ZLG_GUI/spline.o
+CURVE_GetCurve                                    build/ZLG_GUI/spline.o
+CURVE_SetCurve                                    build/ZLG_GUI/spline.o
+Cube                                              build/3Ddisplay/3D_Rotateapplication.o
+DCB2HEX_TAB                                       build/ZLG_GUI/GUI_StockC.o
+                                                  build/ZLG_GUI/loadbit.o
+                                                  build/ZLG_GUI/font5_7.o
+FONT5x7ASCII                                      build/ZLG_GUI/font5_7.o
+Fill_Screen                                       build/Myapp/Mycommon.o
+                                                  build/ZLG_GUI/lcmdrv.o
+GPIO_PA                                           build/driver/gpio-f1c100s.o
+GPIO_PB                                           build/driver/gpio-f1c100s.o
+GPIO_PC                                           build/driver/gpio-f1c100s.o
+GPIO_PD                                           build/driver/gpio-f1c100s.o
+                                                  build/driver/fb-f1c100s.o
+GPIO_PE                                           build/driver/gpio-f1c100s.o
+                                                  build/driver/fb-f1c100s.o
+GPIO_PF                                           build/driver/gpio-f1c100s.o
+GUI_Arc                                           build/ZLG_GUI/GUI_BASIC.o
+GUI_Arc4                                          build/ZLG_GUI/GUI_BASIC.o
+GUI_Circle                                        build/ZLG_GUI/GUI_BASIC.o
+GUI_CircleFill                                    build/ZLG_GUI/GUI_BASIC.o
+GUI_ClearSCR                                      build/ZLG_GUI/lcmdrv.o
+GUI_CmpPointColor                                 build/ZLG_GUI/GUI_BASIC.o
+GUI_Ellipse                                       build/ZLG_GUI/GUI_BASIC.o
+GUI_EllipseFill                                   build/ZLG_GUI/GUI_BASIC.o
+GUI_ExchangeColor                                 build/ZLG_GUI/GUI_StockC.o
+                                                  build/ZLG_GUI/loadbit.o
+GUI_Exec                                          build/ZLG_GUI/lcmdrv.o
+GUI_FillSCR                                       build/ZLG_GUI/lcmdrv.o
+                                                  build/main.o
+GUI_FloodFill                                     build/ZLG_GUI/GUI_BASIC.o
+GUI_GetBackColor                                  build/ZLG_GUI/GUI_StockC.o
+GUI_GetDispColor                                  build/ZLG_GUI/GUI_StockC.o
+GUI_HLine                                         build/ZLG_GUI/lcmdrv.o
+                                                  build/ZLG_GUI/windows.o
+                                                  build/ZLG_GUI/GUI_BASIC.o
+GUI_Initialize                                    build/ZLG_GUI/lcmdrv.o
+                                                  build/main.o
+GUI_Line                                          build/ZLG_GUI/GUI_BASIC.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+                                                  build/ZLG_GUI/windows.o
+GUI_LineS                                         build/ZLG_GUI/GUI_BASIC.o
+                                                  build/ZLG_GUI/spline.o
+GUI_LineWith                                      build/ZLG_GUI/GUI_BASIC.o
+GUI_LoadLine                                      build/ZLG_GUI/loadbit.o
+GUI_LoadPic                                       build/ZLG_GUI/loadbit.o
+GUI_LoadPic1                                      build/ZLG_GUI/loadbit.o
+GUI_Pieslice                                      build/ZLG_GUI/GUI_BASIC.o
+GUI_Point                                         build/ZLG_GUI/lcmdrv.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+                                                  build/ZLG_GUI/loadbit.o
+                                                  build/ZLG_GUI/GUI_BASIC.o
+                                                  build/ZLG_GUI/font5_7.o
+GUI_PutChar                                       build/ZLG_GUI/font5_7.o
+                                                  build/ZLG_GUI/windows.o
+GUI_PutNoStr                                      build/ZLG_GUI/font5_7.o
+GUI_PutString                                     build/ZLG_GUI/font5_7.o
+                                                  build/main.o
+GUI_RLine                                         build/ZLG_GUI/lcmdrv.o
+                                                  build/ZLG_GUI/windows.o
+                                                  build/ZLG_GUI/GUI_BASIC.o
+GUI_ReadLeftPoint                                 build/ZLG_GUI/GUI_BASIC.o
+GUI_ReadPoint                                     build/ZLG_GUI/lcmdrv.o
+                                                  build/ZLG_GUI/GUI_BASIC.o
+GUI_ReadRightPoint                                build/ZLG_GUI/GUI_BASIC.o
+GUI_Rectangle                                     build/ZLG_GUI/GUI_BASIC.o
+                                                  build/ZLG_GUI/windows.o
+GUI_RectangleFill                                 build/ZLG_GUI/GUI_BASIC.o
+                                                  build/ZLG_GUI/windows.o
+GUI_SetColor                                      build/ZLG_GUI/GUI_StockC.o
+GUI_Spline                                        build/ZLG_GUI/spline.o
+GUI_Square                                        build/ZLG_GUI/GUI_BASIC.o
+GUI_WindowsClr                                    build/ZLG_GUI/windows.o
+GUI_WindowsDraw                                   build/ZLG_GUI/windows.o
+GUI_WindowsHide                                   build/ZLG_GUI/windows.o
+Get_Point                                         build/Myapp/Mycommon.o
+                                                  build/ZLG_GUI/lcmdrv.o
+Logo                                              build/main.o
+MATRIX_copy                                       build/3Ddisplay/Transform_3D.o
+MATRIX_multiply                                   build/3Ddisplay/Transform_3D.o
+NO_b                                              build/main.o
+NO_f                                              build/main.o
+NO_m                                              build/main.o
+OrtProject                                        build/3Ddisplay/Transform_3D.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+PerProject                                        build/3Ddisplay/Transform_3D.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+RateCube                                          build/3Ddisplay/3D_Rotateapplication.o
+                                                  build/main.o
+RateCube_all                                      build/3Ddisplay/3D_Rotateapplication.o
+RotatePic29X32                                    build/3Ddisplay/3D_Rotateapplication.o
+                                                  build/main.o
+RotatePic32X32                                    build/3Ddisplay/3D_Rotateapplication.o
+                                                  build/main.o
+Rotate_3D                                         build/3Ddisplay/Transform_3D.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+Rotate_cube                                       build/3Ddisplay/3D_Rotateapplication.o
+Rotatecircle                                      build/3Ddisplay/3D_Rotateapplication.o
+SETCH33X29                                        build/main.o
+SETICO                                            build/main.o
+SPLINE_Generate                                   build/ZLG_GUI/spline.o
+SPLINE_GetCurve                                   build/ZLG_GUI/spline.o
+SPLINE_GetCurveCount                              build/ZLG_GUI/spline.o
+SPLINE_MatrixSolve                                build/ZLG_GUI/spline.o
+SPLINE_SetSpline                                  build/ZLG_GUI/spline.o
+Scale_3D                                          build/3Ddisplay/Transform_3D.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+Screen_Init                                       build/Myapp/Mycommon.o
+                                                  build/ZLG_GUI/lcmdrv.o
+Screen_Setbl                                      build/Myapp/Mycommon.o
+                                                  build/main.o
+Set_Point                                         build/Myapp/Mycommon.o
+                                                  build/ZLG_GUI/lcmdrv.o
+Show_Screen                                       build/Myapp/Mycommon.o
+                                                  build/ZLG_GUI/lcmdrv.o
+                                                  build/main.o
+Translate3D                                       build/3Ddisplay/Transform_3D.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+Triangle                                          build/3Ddisplay/3D_Rotateapplication.o
+YE                                                build/main.o
+__adddf3                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__addsf3                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+__aeabi_cdcmpeq                                   /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__aeabi_cdcmple                                   /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__aeabi_cdrcmple                                  /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__aeabi_cfcmpeq                                   /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__aeabi_cfcmple                                   /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__aeabi_cfrcmple                                  /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__aeabi_d2f                                       /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+                                                  build/Myapp/Mymath.o
+                                                  build/3Ddisplay/Transform_3D.o
+__aeabi_d2iz                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+                                                  build/ZLG_GUI/spline.o
+__aeabi_dadd                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+                                                  build/Myapp/Mymath.o
+__aeabi_dcmpeq                                    /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+                                                  build/Myapp/Mymath.o
+__aeabi_dcmpge                                    /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmpgt                                    /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmple                                    /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmplt                                    /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__aeabi_ddiv                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+                                                  build/Myapp/Mymath.o
+                                                  build/3Ddisplay/Transform_3D.o
+__aeabi_dmul                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+                                                  build/Myapp/Mymath.o
+                                                  build/3Ddisplay/Transform_3D.o
+                                                  build/ZLG_GUI/spline.o
+__aeabi_drsub                                     /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__aeabi_dsub                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__aeabi_f2d                                       /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+                                                  build/Myapp/Mymath.o
+                                                  build/3Ddisplay/Transform_3D.o
+__aeabi_f2iz                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+                                                  build/3Ddisplay/Transform_3D.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+                                                  build/ZLG_GUI/spline.o
+__aeabi_f2uiz                                     /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+                                                  build/main.o
+__aeabi_fadd                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+                                                  build/Myapp/Mymath.o
+                                                  build/3Ddisplay/Transform_3D.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+                                                  build/ZLG_GUI/spline.o
+                                                  build/main.o
+__aeabi_fcmpeq                                    /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+                                                  build/3Ddisplay/Transform_3D.o
+__aeabi_fcmpge                                    /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__aeabi_fcmpgt                                    /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+                                                  build/Myapp/Mymath.o
+                                                  build/main.o
+__aeabi_fcmple                                    /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__aeabi_fcmplt                                    /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+                                                  build/Myapp/Mymath.o
+__aeabi_fdiv                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+                                                  build/Myapp/Mymath.o
+                                                  build/3Ddisplay/Transform_3D.o
+                                                  build/ZLG_GUI/spline.o
+__aeabi_fmul                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+                                                  build/Myapp/Mymath.o
+                                                  build/3Ddisplay/Transform_3D.o
+                                                  build/ZLG_GUI/spline.o
+__aeabi_frsub                                     /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+__aeabi_fsub                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+                                                  build/Myapp/Mymath.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+                                                  build/ZLG_GUI/spline.o
+                                                  build/main.o
+__aeabi_i2d                                       /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+                                                  build/ZLG_GUI/spline.o
+__aeabi_i2f                                       /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+                                                  build/3Ddisplay/Transform_3D.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+                                                  build/ZLG_GUI/spline.o
+__aeabi_idiv0                                     /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_dvmd_tls.o)
+__aeabi_l2d                                       /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__aeabi_l2f                                       /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+__aeabi_ldiv0                                     /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_dvmd_tls.o)
+                                                  /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+__aeabi_ui2d                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__aeabi_ui2f                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+                                                  build/ZLG_GUI/spline.o
+__aeabi_ul2d                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__aeabi_ul2f                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+__aeabi_uldivmod                                  /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+                                                  build/driver/fb-f1c100s.o
+                                                  build/driver/clk-f1c100s-pll.o
+                                                  build/driver/pwm-f1c100s.o
+__assert_func                                     build/main.o
+                                                  build/lib/malloc.o
+__bootloader_size                                 build/machine/start.o
+__bss_end                                         build/machine/start.o
+__bss_start                                       build/machine/start.o
+__clzdi2                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o)
+                                                  /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+__clzsi2                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzsi2.o)
+                                                  /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_clzdi2.o)
+__cmpdf2                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__cmpsf2                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__data_end                                        build/machine/start.o
+__data_shadow_end                                 build/machine/start.o
+__data_shadow_start                               build/machine/start.o
+__data_start                                      build/machine/start.o
+__divdf3                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+__divsf3                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+__dma_end                                         build/lib/dma.o
+__dma_start                                       build/lib/dma.o
+__eqdf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__eqsf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__extendsfdf2                                     /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__fatal_error                                     build/main.o
+__fixdfsi                                         /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixdfsi.o)
+__fixsfsi                                         /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixsfsi.o)
+__fixunssfsi                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_fixunssfsi.o)
+__floatdidf                                       /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__floatdisf                                       /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+__floatsidf                                       /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__floatsisf                                       /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+__floatundidf                                     /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__floatundisf                                     /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+__floatunsidf                                     /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__floatunsisf                                     /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+__gedf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__gesf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__gtdf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__gtsf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__heap_end                                        build/lib/malloc.o
+__heap_start                                      build/lib/malloc.o
+__image_end                                       build/machine/start.o
+                                                  build/machine/sys-copyself.o
+__image_start                                     build/machine/start.o
+                                                  build/machine/sys-copyself.o
+__ledf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__lesf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__ltdf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__ltsf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__muldf3                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivdf3.o)
+__mulsf3                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_muldivsf3.o)
+__nedf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpdf2.o)
+__nesf2                                           /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_cmpsf2.o)
+__stack_abt_end                                   build/machine/start.o
+__stack_fiq_end                                   build/machine/start.o
+__stack_irq_end                                   build/machine/start.o
+__stack_srv_end                                   build/machine/start.o
+__stack_und_end                                   build/machine/start.o
+__subdf3                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubdf3.o)
+__subsf3                                          /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_addsubsf3.o)
+__truncdfsf2                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_arm_truncdfsf2.o)
+__udivmoddi4                                      /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_udivmoddi4.o)
+                                                  /usr/local/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/bin/../lib/gcc/arm-eabi/5.3.1/libgcc.a(_aeabi_uldivmod.o)
+_start                                            build/machine/start.o
+abs                                               build/Myapp/Mymath.o
+                                                  build/ZLG_GUI/spline.o
+arm32_do_data_abort                               build/machine/exception.o
+arm32_do_fiq                                      build/machine/exception.o
+                                                  build/machine/start.o
+arm32_do_irq                                      build/machine/exception.o
+                                                  build/machine/start.o
+arm32_do_prefetch_abort                           build/machine/exception.o
+arm32_do_software_interrupt                       build/machine/exception.o
+arm32_do_undefined_instruction                    build/machine/exception.o
+back_color                                        build/ZLG_GUI/GUI_StockC.o
+                                                  build/ZLG_GUI/windows.o
+                                                  build/ZLG_GUI/loadbit.o
+                                                  build/ZLG_GUI/lcmdrv.o
+                                                  build/ZLG_GUI/font5_7.o
+                                                  build/main.o
+bat_b                                             build/main.o
+bat_f                                             build/main.o
+boot_main                                         build/main.o
+                                                  build/machine/start.o
+calloc                                            build/lib/malloc.o
+clk_f1c100s_pll_get_enable                        build/driver/clk-f1c100s-pll.o
+clk_f1c100s_pll_get_parent                        build/driver/clk-f1c100s-pll.o
+clk_f1c100s_pll_get_rate                          build/driver/clk-f1c100s-pll.o
+                                                  build/driver/fb-f1c100s.o
+clk_f1c100s_pll_set_enable                        build/driver/clk-f1c100s-pll.o
+                                                  build/driver/fb-f1c100s.o
+clk_f1c100s_pll_set_parent                        build/driver/clk-f1c100s-pll.o
+clk_f1c100s_pll_set_rate                          build/driver/clk-f1c100s-pll.o
+clk_hosc                                          build/driver/clk-f1c100s-pll.o
+cos                                               build/Myapp/Mymath.o
+                                                  build/3Ddisplay/Transform_3D.o
+disp_color                                        build/ZLG_GUI/GUI_StockC.o
+                                                  build/ZLG_GUI/windows.o
+                                                  build/ZLG_GUI/loadbit.o
+                                                  build/ZLG_GUI/font5_7.o
+                                                  build/main.o
+dma_alloc_coherent                                build/lib/dma.o
+dma_alloc_noncoherent                             build/lib/dma.o
+                                                  build/driver/fb-f1c100s.o
+dma_cache_sync                                    build/lib/dma.o
+                                                  build/driver/fb-f1c100s.o
+dma_free_coherent                                 build/lib/dma.o
+dma_free_noncoherent                              build/lib/dma.o
+                                                  build/driver/fb-f1c100s.o
+do_init_dma_pool                                  build/lib/dma.o
+                                                  build/main.o
+do_init_mem_pool                                  build/lib/malloc.o
+                                                  build/main.o
+fb_f1c100s                                        build/Myapp/Mycommon.o
+fb_f1c100s_create                                 build/driver/fb-f1c100s.o
+                                                  build/Myapp/Mycommon.o
+fb_f1c100s_destroy                                build/driver/fb-f1c100s.o
+fb_f1c100s_getbl                                  build/driver/fb-f1c100s.o
+fb_f1c100s_init                                   build/driver/fb-f1c100s.o
+                                                  build/Myapp/Mycommon.o
+fb_f1c100s_pData                                  build/driver/fb-f1c100s.o
+fb_f1c100s_present                                build/driver/fb-f1c100s.o
+                                                  build/Myapp/Mycommon.o
+fb_f1c100s_remove                                 build/driver/fb-f1c100s.o
+fb_f1c100s_resume                                 build/driver/fb-f1c100s.o
+fb_f1c100s_setbl                                  build/driver/fb-f1c100s.o
+                                                  build/Myapp/Mycommon.o
+fb_f1c100s_suspend                                build/driver/fb-f1c100s.o
+free                                              build/lib/malloc.o
+                                                  build/driver/fb-f1c100s.o
+                                                  build/lib/dma.o
+gpio_f1c100s_get_cfg                              build/driver/gpio-f1c100s.o
+gpio_f1c100s_get_dir                              build/driver/gpio-f1c100s.o
+gpio_f1c100s_get_drv                              build/driver/gpio-f1c100s.o
+gpio_f1c100s_get_pull                             build/driver/gpio-f1c100s.o
+gpio_f1c100s_get_rate                             build/driver/gpio-f1c100s.o
+gpio_f1c100s_get_value                            build/driver/gpio-f1c100s.o
+gpio_f1c100s_set_cfg                              build/driver/gpio-f1c100s.o
+                                                  build/driver/fb-f1c100s.o
+                                                  build/driver/pwm-f1c100s.o
+gpio_f1c100s_set_dir                              build/driver/gpio-f1c100s.o
+gpio_f1c100s_set_drv                              build/driver/gpio-f1c100s.o
+                                                  build/driver/fb-f1c100s.o
+gpio_f1c100s_set_pull                             build/driver/gpio-f1c100s.o
+                                                  build/driver/fb-f1c100s.o
+gpio_f1c100s_set_rate                             build/driver/gpio-f1c100s.o
+gpio_f1c100s_set_value                            build/driver/gpio-f1c100s.o
+gpio_f1c100s_to_irq                               build/driver/gpio-f1c100s.o
+malloc                                            build/lib/malloc.o
+                                                  build/driver/fb-f1c100s.o
+max                                               build/ZLG_GUI/spline.o
+memalign                                          build/lib/malloc.o
+                                                  build/driver/fb-f1c100s.o
+                                                  build/lib/dma.o
+memcpy                                            build/arch/arm32/lib/memcpy.o
+                                                  build/machine/start.o
+                                                  build/driver/fb-f1c100s.o
+                                                  build/lib/malloc.o
+memset                                            build/arch/arm32/lib/memset.o
+                                                  build/machine/start.o
+                                                  build/lib/malloc.o
+mm_add_pool                                       build/lib/malloc.o
+mm_create                                         build/lib/malloc.o
+                                                  build/lib/dma.o
+mm_destroy                                        build/lib/malloc.o
+mm_free                                           build/lib/malloc.o
+                                                  build/lib/dma.o
+mm_get_pool                                       build/lib/malloc.o
+mm_malloc                                         build/lib/malloc.o
+mm_memalign                                       build/lib/malloc.o
+                                                  build/lib/dma.o
+mm_realloc                                        build/lib/malloc.o
+mm_remove_pool                                    build/lib/malloc.o
+pow                                               build/Myapp/Mymath.o
+prescaler_table                                   build/driver/pwm-f1c100s.o
+pwm_f1c100s_config                                build/driver/pwm-f1c100s.o
+pwm_f1c100s_disable                               build/driver/pwm-f1c100s.o
+pwm_f1c100s_enable                                build/driver/pwm-f1c100s.o
+pwm_f1c100s_init                                  build/driver/pwm-f1c100s.o
+                                                  build/driver/fb-f1c100s.o
+pwm_f1c100s_set_duty                              build/driver/pwm-f1c100s.o
+                                                  build/driver/fb-f1c100s.o
+realloc                                           build/lib/malloc.o
+render                                            build/Myapp/Mycommon.o
+reset_1                                           build/driver/fb-f1c100s.o
+reset_2                                           build/driver/fb-f1c100s.o
+reset_3                                           build/driver/fb-f1c100s.o
+reset_f1c100s_assert                              build/driver/reset-f1c100s.o
+reset_f1c100s_deassert                            build/driver/reset-f1c100s.o
+                                                  build/driver/fb-f1c100s.o
+return_to_fel                                     build/machine/start.o
+                                                  build/machine/sys-copyself.o
+sin                                               build/Myapp/Mymath.o
+                                                  build/3Ddisplay/Transform_3D.o
+sqrt                                              build/Myapp/Mymath.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+                                                  build/ZLG_GUI/spline.o
+structure_3D                                      build/3Ddisplay/Transform_3D.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
+sys_clock_init                                    build/machine/sys-clock.o
+                                                  build/machine/start.o
+sys_copyself                                      build/machine/sys-copyself.o
+                                                  build/machine/start.o
+sys_dram_init                                     build/machine/sys-dram.o
+                                                  build/machine/start.o
+sys_mmu_init                                      build/machine/sys-mmu.o
+                                                  build/machine/sys-copyself.o
+sys_spi_flash_exit                                build/machine/sys-spi-flash.o
+                                                  build/machine/sys-copyself.o
+sys_spi_flash_init                                build/machine/sys-spi-flash.o
+                                                  build/machine/sys-copyself.o
+sys_spi_flash_read                                build/machine/sys-spi-flash.o
+                                                  build/machine/sys-copyself.o
+sys_uart_init                                     build/machine/sys-uart.o
+                                                  build/machine/start.o
+sys_uart_putc                                     build/machine/sys-uart.o
+                                                  build/machine/sys-copyself.o
+                                                  build/main.o
+vector_matrix_MULTIPLY                            build/3Ddisplay/Transform_3D.o
+                                                  build/3Ddisplay/3D_Rotateapplication.o
